@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>用户信息录入</title>
+</head>
+<body>
+    <form th:action="@{/adduser}" method ="post">
+        用户名：<input type="text" name="name"><br/>
+        年龄：<input type ="text" name="age"><br/>
+        <input type="submit" value="确定">
+    </form>
+</body>
+</html>
